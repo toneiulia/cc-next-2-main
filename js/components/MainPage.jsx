@@ -39,10 +39,10 @@ export default function MainPage() {
 
 	console.log(records);
 	function redirectToPage() {
-		window.location.href = 'http://localhost:3000/insert';
+		window.location.href = '/insert';
 	  }
 	  function redirectToPage2() {
-		window.location.href = 'http://localhost:3000/chat';
+		window.location.href = '/chat';
 	  }
 
 	return (
