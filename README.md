@@ -3,19 +3,21 @@
 Student: Țone Iulia-Paula, SIMPRE, grupa 1121
 ### Introducere
 În cadrul acestui proiect am ales să creez o aplicație web, folosind Next.js.
-Am folosit ca servicii în Cloud:
-####	Baza de date MongoDB. 
-####	API-ul ChatGPT pentru a integra funcționalitățiile ChatGPT-ului.
+Am utilizat ca servicii în Cloud:
+####	Baza de date MongoDB;
+####	API-ul ChatGPT - pentru a integra funcționalitățile ChatGPT-ului;
 ####	Vercel – pentru deploymentul aplicației dezvoltate.
 
-##  Linkul către repository-ul public : github
-## Linkul către aplicația publică este următorul: vercel
+## Linkul către repository-ul public : [github](https://github.com/toneiulia/cc-next-2-main)
+## Linkul către aplicația publică este următorul: [vercel](https://cc-next-2-main.vercel.app/)
 ## Linkul către prezentarea video este următorul: youtube
+
 # Descriere problemă
-Problema abordată de aplicația dezvoltată permite utilizatorilor să-și gestioneze și să-și urmărească rutina de îngrijire a pielii. În fiecare zi, oamenii folosesc diferite produse și tehnici pentru a-și menține pielea sănătoasă și frumoasă. Cu toate acestea, monitorizarea și organizarea acestor produse și proceduri pot deveni un proces dificil și confuz.
+Problema abordată de aplicația dezvoltată permite utilizatorilor să-și gestioneze și să-și urmărească rutina de îngrijire a tenului. În fiecare zi, oamenii folosesc diferite produse și tehnici pentru a-și menține pielea sănătoasă și frumoasă. Cu toate acestea, monitorizarea și organizarea acestor produse și proceduri pot deveni un proces dificil și confuz.
 Aplicația dezvoltată vine în ajutorul utilizatorilor, oferindu-le un instrument convenabil pentru a-și gestiona rutina de îngrijire a pielii. Utilizatorii pot salva informații despre produsele pe care le utilizează, inclusiv detalii precum numele produsului, imagine sugestiva, descriere si modul de aplicare. Aceste informații sunt organizate într-un mod structurat și ușor de accesat.
-Descriere API
-OpenAI API este o platformă de inteligență artificială (IA) care oferă acces la funcționalități avansate de limbaj natural prin intermediul interacțiunii cu modele de învățare profundă precum GPT-3.5. Această API permite dezvoltatorilor și utilizatorilor să integreze capabilități puternice de procesare a limbajului în aplicațiile, serviciile sau produsele lor.
+
+# Descriere API
+OpenAI API este o platformă de inteligență artificială (AI) care oferă acces la funcționalități avansate de limbaj natural prin intermediul interacțiunii cu modele de învățare profundă precum GPT-3.5. Această API permite dezvoltatorilor și utilizatorilor să integreze capabilități puternice de procesare a limbajului în aplicațiile, serviciile sau produsele lor.
 
 Cu OpenAI API, utilizatorii pot accesa un model lingvistic extrem de sofisticat și contextual, capabil să genereze texte coerente și bogate în informații. Prin intermediul API-ului, se pot realiza diverse sarcini, cum ar fi răspunsul la întrebări, rezolvarea problemelor, conversația interactivă sau generarea de texte creative.
 
@@ -125,7 +127,7 @@ Exemplu de response:
 }
 ```
 ## Autentificare
-Pentru a utiliza OpenAI API, utilizatorul trebuie să urmeze acești pași:
+Pentru a utiliza OpenAI API, utilizatorul trebuie să urmeze pașii de mai jos.
 Înregistrarea pe site-ul OpenAI: Utilizatorul trebuie să acceseze site-ul OpenAI (https://www.openai.com) și să creeze un cont pentru a obține acces la API-ul OpenAI. Termenii și condițiile asociate utilizării API-ului trebuie să fie citiți și înțeleși înainte de înregistrare.
 Obținerea cheii de acces API: După înregistrare, utilizatorul trebuie să parcurgă procedura specificată de OpenAI pentru a obține cheia de acces API. Această cheie va fi utilizată pentru autentificare în solicitările către API-ul OpenAI.
 Explorarea documentației API-ului: Utilizatorul trebuie să consulte documentația OpenAI API pentru a învăța despre metodele și endpoint-urile disponibile. Documentația oferă informații detaliate despre cum să se formeze și să se trimită solicitări către API, precum și despre parametrii și opțiunile disponibile.
@@ -144,6 +146,7 @@ Crearea și gestionarea bazelor de date și colecții: Utilizatorul poate crea b
  ![Screenshot](iulia2.png)
 ## Ecran chat:
  ![Screenshot](iulia3.png)
+ 
 # Concluzii
 Aplicația de skincare dezvoltată oferă utilizatorilor o soluție convenabilă și eficientă pentru a-și gestiona și urmări rutina de îngrijire a pielii. Prin intermediul aplicației, utilizatorii pot organiza și stoca informații despre produsele utilizate. Cu ajutorul recomandărilor personalizate, utilizatorii pot descoperi noi produse și adapta rutina lor de îngrijire a pielii în funcție de nevoile individuale. Aplicația contribuie la îmbunătățirea sănătății și aspectului pielii utilizatorilor, facilitând un proces simplu și eficient de gestionare a rutinei de îngrijire a pielii.
 Această aplicație de skincare oferă o experiență interactivă și personalizată prin integrarea ChatGPT. Utilizatorii pot interacționa cu sistemul de inteligență artificială pentru a obține informații suplimentare despre produsele din rutina lor de îngrijire a pielii și pentru a primi sfaturi și recomandări personalizate.
