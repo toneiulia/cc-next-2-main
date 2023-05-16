@@ -13,15 +13,15 @@ Am utilizat ca servicii în Cloud:
 ## Linkul către prezentarea video este următorul: [youtube](https://youtu.be/iEJDLLYlNfk)
 
 # Descriere problemă
-Problema abordată de aplicația dezvoltată permite utilizatorilor să-și gestioneze și să-și urmărească rutina de îngrijire a tenului. În fiecare zi, oamenii folosesc diferite produse și tehnici pentru a-și menține pielea sănătoasă și frumoasă. Cu toate acestea, monitorizarea și organizarea acestor produse și proceduri pot deveni un proces dificil și confuz.
-Aplicația dezvoltată vine în ajutorul utilizatorilor, oferindu-le un instrument convenabil pentru a-și gestiona rutina de îngrijire a pielii. Utilizatorii pot salva informații despre produsele pe care le utilizează, inclusiv detalii precum numele produsului, imagine sugestiva, descriere si modul de aplicare. Aceste informații sunt organizate într-un mod structurat și ușor de accesat.
+Problema abordată de aplicația dezvoltată permite utilizatorilor să-și gestioneze și să-și urmărească rutina de îngrijire a tenului. În fiecare zi, oamenii folosesc diferite produse și tehnici pentru a-și menține pielea sănătoasă și frumoasă. Cu toate acestea, monitorizarea și organizarea acestor produse și proceduri pot deveni un proces dificil și confuz. <br />
+Aplicația dezvoltată vine în ajutorul utilizatorilor, oferindu-le un instrument convenabil pentru a-și gestiona rutina de îngrijire a pielii. Utilizatorii pot salva informații despre produsele pe care le utilizează, inclusiv detalii precum numele produsului, imagine sugestiva, descriere si modul de aplicare. Aceste informații sunt organizate într-un mod structurat și ușor de accesat. <br />
 
 # Descriere API
-OpenAI API este o platformă de inteligență artificială (AI) care oferă acces la funcționalități avansate de limbaj natural prin intermediul interacțiunii cu modele de învățare profundă precum GPT-3.5. Această API permite dezvoltatorilor și utilizatorilor să integreze capabilități puternice de procesare a limbajului în aplicațiile, serviciile sau produsele lor.
+OpenAI API este o platformă de inteligență artificială (AI) care oferă acces la funcționalități avansate de limbaj natural prin intermediul interacțiunii cu modele de învățare profundă precum GPT-3.5. Această API permite dezvoltatorilor și utilizatorilor să integreze capabilități puternice de procesare a limbajului în aplicațiile, serviciile sau produsele lor. <br />
 
-Cu OpenAI API, utilizatorii pot accesa un model lingvistic extrem de sofisticat și contextual, capabil să genereze texte coerente și bogate în informații. Prin intermediul API-ului, se pot realiza diverse sarcini, cum ar fi răspunsul la întrebări, rezolvarea problemelor, conversația interactivă sau generarea de texte creative.
+Cu OpenAI API, utilizatorii pot accesa un model lingvistic extrem de sofisticat și contextual, capabil să genereze texte coerente și bogate în informații. Prin intermediul API-ului, se pot realiza diverse sarcini, cum ar fi răspunsul la întrebări, rezolvarea problemelor, conversația interactivă sau generarea de texte creative. <br />
 
-API-ul oferă un mecanism simplu de comunicare cu modelul de limbaj, permițând trimiterea de prompturi și primirea de răspunsuri relevante. Prin explorarea opțiunilor de configurare, utilizatorii pot personaliza și adapta modelul pentru a se potrivi nevoilor lor specifice. OpenAI API poate fi utilizat pentru a crea asistenți virtuali inteligenti, sisteme de recomandare, aplicații de chatbot, instrumente de traducere și multe altele.Astfel, pot interacționa cu acesta prin requesturi de tip GET și POST:
+API-ul oferă un mecanism simplu de comunicare cu modelul de limbaj, permițând trimiterea de prompturi și primirea de răspunsuri relevante. Prin explorarea opțiunilor de configurare, utilizatorii pot personaliza și adapta modelul pentru a se potrivi nevoilor lor specifice. OpenAI API poate fi utilizat pentru a crea asistenți virtuali inteligenti, sisteme de recomandare, aplicații de chatbot, instrumente de traducere și multe altele.Astfel, pot interacționa cu acesta prin requesturi de tip GET și POST: <br />
 
 
 ## Request de tip POST:
@@ -38,20 +38,20 @@ let response = await fetch('/api/answer', {
                     signal: AbortSignal.timeout(20000),
                 });
 ```
-Fragmentul de cod prezentat demonstrează o solicitare de tip POST efectuată către ruta '/api/answer' a unei aplicații folosind metoda fetch. În această solicitare, se trimit anumite date către server pentru a obține un răspuns.
+Fragmentul de cod prezentat demonstrează o solicitare de tip POST efectuată către ruta '/api/answer' a unei aplicații folosind metoda fetch. În această solicitare, se trimit anumite date către server pentru a obține un răspuns. <br />
 
-Atributele solicitării sunt următoarele:
-Method: 'POST' - Specifică că se dorește efectuarea unei solicitări de tip POST.
-Headers: 'Content-Type': 'application/json' - Setează antetul 'Content-Type' la valoarea 'application/json', indicând faptul că conținutul corpului cererii este în format JSON.
-Body: JSON.stringify({...}) - Conține corpul cererii, care este un obiect JavaScript convertit în format JSON prin utilizarea metodei JSON.stringify(). Acest obiect conține două chei:
+Atributele solicitării sunt următoarele: <br />
+Method: 'POST' - Specifică că se dorește efectuarea unei solicitări de tip POST. <br />
+Headers: 'Content-Type': 'application/json' - Setează antetul 'Content-Type' la valoarea 'application/json', indicând faptul că conținutul corpului cererii este în format JSON. <br />
+Body: JSON.stringify({...}) - Conține corpul cererii, care este un obiect JavaScript convertit în format JSON prin utilizarea metodei JSON.stringify(). Acest obiect conține două chei: <br />
 'messages': filteredChatHistory - Reprezintă un array de mesaje filtrate din istoricul de chat și este inclus în corpul cererii pentru a fi procesat de server.
-'type': 'skincare' - Indică tipul de solicitare, în acest caz, 'skincare', ceea ce sugerează că aplicația se așteaptă să primească un răspuns relevant în domeniul îngrijirii pielii.
-Signal: AbortSignal.timeout(20000) - Acesta specifică că se dorește întreruperea solicitării dacă nu se primește un răspuns în decurs de 20 de secunde (20000 milisecunde). Aceasta este o măsură de siguranță pentru a evita expunerea aplicației la întârzieri excesive sau cereri nerezolvate.
+'type': 'skincare' - Indică tipul de solicitare, în acest caz, 'skincare', ceea ce sugerează că aplicația se așteaptă să primească un răspuns relevant în domeniul îngrijirii pielii. <br />
+Signal: AbortSignal.timeout(20000) - Acesta specifică că se dorește întreruperea solicitării dacă nu se primește un răspuns în decurs de 20 de secunde (20000 milisecunde). Aceasta este o măsură de siguranță pentru a evita expunerea aplicației la întârzieri excesive sau cereri nerezolvate. <br />
 
 ## Metode GET: prin care citesc date
-o	http://localhost:3000/api/records - prin care obțin toate produsele din baza de date
-Exemplu de request: http://localhost:3000/api/records
-Exemplu de response: 
+o	http://localhost:3000/api/records - prin care obțin toate produsele din baza de date <br />
+Exemplu de request: http://localhost:3000/api/records <br />
+Exemplu de response: <br />
 ```
 {
     "data": [
