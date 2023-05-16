@@ -10,7 +10,7 @@ Am utilizat ca servicii în Cloud:
 
 ## Linkul către repository-ul public : [github](https://github.com/toneiulia/cc-next-2-main)
 ## Linkul către aplicația publică este următorul: [vercel](https://cc-next-2-main.vercel.app/)
-## Linkul către prezentarea video este următorul: youtube
+## Linkul către prezentarea video este următorul: [youtube](https://youtu.be/iEJDLLYlNfk)
 
 # Descriere problemă
 Problema abordată de aplicația dezvoltată permite utilizatorilor să-și gestioneze și să-și urmărească rutina de îngrijire a tenului. În fiecare zi, oamenii folosesc diferite produse și tehnici pentru a-și menține pielea sănătoasă și frumoasă. Cu toate acestea, monitorizarea și organizarea acestor produse și proceduri pot deveni un proces dificil și confuz.
@@ -127,17 +127,17 @@ Exemplu de response:
 }
 ```
 ## Autentificare
-Pentru a utiliza OpenAI API, utilizatorul trebuie să urmeze pașii de mai jos.
+Pentru a utiliza OpenAI API, utilizatorul trebuie să urmeze pașii de mai jos. <br />
 Înregistrarea pe site-ul OpenAI: Utilizatorul trebuie să acceseze site-ul OpenAI (https://www.openai.com) și să creeze un cont pentru a obține acces la API-ul OpenAI. Termenii și condițiile asociate utilizării API-ului trebuie să fie citiți și înțeleși înainte de înregistrare.
-Obținerea cheii de acces API: După înregistrare, utilizatorul trebuie să parcurgă procedura specificată de OpenAI pentru a obține cheia de acces API. Această cheie va fi utilizată pentru autentificare în solicitările către API-ul OpenAI.
+Obținerea cheii de acces API: După înregistrare, utilizatorul trebuie să parcurgă procedura specificată de OpenAI pentru a obține cheia de acces API. Această cheie va fi utilizată pentru autentificare în solicitările către API-ul OpenAI. <br />
 Explorarea documentației API-ului: Utilizatorul trebuie să consulte documentația OpenAI API pentru a învăța despre metodele și endpoint-urile disponibile. Documentația oferă informații detaliate despre cum să se formeze și să se trimită solicitări către API, precum și despre parametrii și opțiunile disponibile.
-Implementarea solicitărilor către API: Utilizatorul trebuie să utilizeze cheia de acces API în cadrul aplicației sau serviciului pe care îl dezvoltă pentru a efectua solicitări către API-ul OpenAI. Aceste solicitări pot fi efectuate utilizând biblioteci sau instrumente specifice, cum ar fi fetch() în JavaScript sau alte pachete și module de cerere HTTP, conform documentației și exemplelor disponibile.
-Respectarea politicilor și regulilor de utilizare: Utilizatorul trebuie să respecte politicile și regulile de utilizare stabilite de OpenAI pentru utilizarea API-ului. Acestea includ aspecte precum limitările de utilizare, utilizarea responsabilă a serviciului și gestionarea datelor utilizatorilor în conformitate cu politica de confidențialitate.
-De asemenea, pentru a utiliza MongoDB, am urmat acești pași:
-Descărcarea și instalarea MongoDB: Utilizatorul trebuie să descarce pachetul de instalare MongoDB de pe site-ul oficial MongoDB (https://www.mongodb.com) și să urmeze instrucțiunile specifice sistemului de operare pentru a instala MongoDB local pe mașina sa.
+Implementarea solicitărilor către API: Utilizatorul trebuie să utilizeze cheia de acces API în cadrul aplicației sau serviciului pe care îl dezvoltă pentru a efectua solicitări către API-ul OpenAI. Aceste solicitări pot fi efectuate utilizând biblioteci sau instrumente specifice, cum ar fi fetch() în JavaScript sau alte pachete și module de cerere HTTP, conform documentației și exemplelor disponibile. <br />
+Respectarea politicilor și regulilor de utilizare: Utilizatorul trebuie să respecte politicile și regulile de utilizare stabilite de OpenAI pentru utilizarea API-ului. Acestea includ aspecte precum limitările de utilizare, utilizarea responsabilă a serviciului și gestionarea datelor utilizatorilor în conformitate cu politica de confidențialitate. <br />
+De asemenea, pentru a utiliza MongoDB, am urmat pașii: <br />
+Descărcarea și instalarea MongoDB: Utilizatorul trebuie să descarce pachetul de instalare MongoDB de pe site-ul oficial MongoDB (https://www.mongodb.com) și să urmeze instrucțiunile specifice sistemului de operare pentru a instala MongoDB local pe mașina sa. <br />
 Configurarea serverului MongoDB: După instalare, utilizatorul trebuie să configureze serverul MongoDB. Acest lucru poate include setarea locației datelor, configurarea opțiunilor de securitate și gestionarea parametrilor de performanță. Documentația MongoDB oferă detalii specifice pentru fiecare pas de configurare.
-Conectarea la serverul MongoDB: Utilizatorul trebuie să utilizeze un client MongoDB pentru a se conecta la serverul MongoDB și a interacționa cu baza de date. Există diferite opțiuni de client, cum ar fi shell-ul MongoDB (mongo), driverii oficiali MongoDB pentru diferite limbaje de programare sau instrumente de gestionare a bazelor de date vizuale.
-Crearea și gestionarea bazelor de date și colecții: Utilizatorul poate crea baze de date noi și colecții în cadrul serverului MongoDB. Bazele de date pot fi utilizate pentru a organiza și separa diferitele seturi de date, iar colecțiile sunt similare tabelelor într-o bază de date relațională.
+Conectarea la serverul MongoDB: Utilizatorul trebuie să utilizeze un client MongoDB pentru a se conecta la serverul MongoDB și a interacționa cu baza de date. Există diferite opțiuni de client, cum ar fi shell-ul MongoDB (mongo), driverii oficiali MongoDB pentru diferite limbaje de programare sau instrumente de gestionare a bazelor de date vizuale. <br />
+Crearea și gestionarea bazelor de date și colecții: Utilizatorul poate crea baze de date noi și colecții în cadrul serverului MongoDB. Bazele de date pot fi utilizate pentru a organiza și separa diferitele seturi de date, iar colecțiile sunt similare tabelelor într-o bază de date relațională. <br />
 
 # Capturi  din aplicație
 ## Ecranul principal:
@@ -148,16 +148,16 @@ Crearea și gestionarea bazelor de date și colecții: Utilizatorul poate crea b
  ![Screenshot](iulia3.png)
  
 # Concluzii
-Aplicația de skincare dezvoltată oferă utilizatorilor o soluție convenabilă și eficientă pentru a-și gestiona și urmări rutina de îngrijire a pielii. Prin intermediul aplicației, utilizatorii pot organiza și stoca informații despre produsele utilizate. Cu ajutorul recomandărilor personalizate, utilizatorii pot descoperi noi produse și adapta rutina lor de îngrijire a pielii în funcție de nevoile individuale. Aplicația contribuie la îmbunătățirea sănătății și aspectului pielii utilizatorilor, facilitând un proces simplu și eficient de gestionare a rutinei de îngrijire a pielii.
+Aplicația de skincare dezvoltată oferă utilizatorilor o soluție convenabilă și eficientă pentru a-și gestiona și urmări rutina de îngrijire a pielii. Prin intermediul aplicației, utilizatorii pot organiza și stoca informații despre produsele utilizate. Cu ajutorul recomandărilor personalizate, utilizatorii pot descoperi noi produse și adapta rutina lor de îngrijire a pielii în funcție de nevoile individuale. Aplicația contribuie la îmbunătățirea sănătății și aspectului pielii utilizatorilor, facilitând un proces simplu și eficient de gestionare a rutinei de îngrijire a pielii. <br />
 Această aplicație de skincare oferă o experiență interactivă și personalizată prin integrarea ChatGPT. Utilizatorii pot interacționa cu sistemul de inteligență artificială pentru a obține informații suplimentare despre produsele din rutina lor de îngrijire a pielii și pentru a primi sfaturi și recomandări personalizate.
-Integrarea ChatGPT permite utilizatorilor să adreseze întrebări despre produsele specifice, să obțină detalii despre ingredientele cheie, să exploreze beneficiile și să primească recomandări personalizate în funcție de tipul lor de piele și preferințe. Sistemul de inteligență artificială oferă răspunsuri relevante și utile, creând o experiență conversațională interactivă și informativă.
+Integrarea ChatGPT permite utilizatorilor să adreseze întrebări despre produsele specifice, să obțină detalii despre ingredientele cheie, să exploreze beneficiile și să primească recomandări personalizate în funcție de tipul lor de piele și preferințe. Sistemul de inteligență artificială oferă răspunsuri relevante și utile, creând o experiență conversațională interactivă și informativă. <br />
 
 
 # Referințe
-https://v2.tailwindcss.com/docs
-https://www.awesomescreenshot.com/blog/knowledge/chat-gpt-api 
-https://www.mongodb.com/what-is-mongodb?utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_general_prosp-brand_gic-null_emea-ro_ps-all_desktop_eng_lead&utm_term=what%20is%20mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=2030069978&adgroup=153045585091&cq_cmp=2030069978&gad=1&gclid=Cj0KCQjwsIejBhDOARIsANYqkD3ISYCpvkuwewfhWkaqBP8hzQSIwOlWpCwXULkR0sqUXJ4sn-UgPkcaAsHTEALw_wcB 
-https://www.variables.sh/vercel/ 
-https://github.com/guritaalexandru/cc-next-2 
-https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/ 
-https://comenzi.bebetei.ro/ 
+https://v2.tailwindcss.com/docs <br />
+https://www.awesomescreenshot.com/blog/knowledge/chat-gpt-api  <br />
+https://www.mongodb.com/what-is-mongodb?utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_general_prosp-brand_gic-null_emea-ro_ps-all_desktop_eng_lead&utm_term=what%20is%20mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=2030069978&adgroup=153045585091&cq_cmp=2030069978&gad=1&gclid=Cj0KCQjwsIejBhDOARIsANYqkD3ISYCpvkuwewfhWkaqBP8hzQSIwOlWpCwXULkR0sqUXJ4sn-UgPkcaAsHTEALw_wcB  <br />
+https://www.variables.sh/vercel/ <br />
+https://github.com/guritaalexandru/cc-next-2 <br />
+https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/ <br />
+https://comenzi.bebetei.ro/ <br />
