@@ -72,7 +72,7 @@ function ChatComponent(props) {
 		}
 	}
 	function redirectToPage() {
-		window.location.href = '';
+		window.location.href = '/';
 	  }
 
 	return (

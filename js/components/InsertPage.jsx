@@ -33,7 +33,7 @@ export default function InsertPage() {
 	}
 
 	function redirectToPage() {
-		window.location.href = '';
+		window.location.href = '/';
 	  }
 	return (
 		<section className={"bg-white"}>
